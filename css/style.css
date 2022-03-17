@@ -1,0 +1,200 @@
+*{
+    font-family: 'Arial' serif;
+}
+
+@font-face {
+    font-family: 'Stripe';
+    src: url(../fonts/Stripe.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Clarence';
+    src: url(../fonts/ClarencePro-005.woff2) format('woff2');
+}
+._header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    height: 51px;
+    background-color: #212121;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 70px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-family: 'Stripe';
+    font-weight: 400;
+    color:azure;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 41px;
+}
+
+.subheader {
+    position: absolute;
+    font-family: 'Arial' serif;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 3px;
+    z-index: 5;
+    color:aliceblue;
+}
+
+.subheader .subheader_logo{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.subheader .subheader_logo span{
+    font-family: 'Clarence';
+    font-size: 23px;
+    
+}
+.subheader .subheader_img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.subheader .subheader_txt{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.subheader .subheader_link{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.subheader_tel{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.subheader .top_text{
+    font-size: 10px;
+}
+
+.subheader .sub_text{
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.subheader .subheader_btn{
+    padding-top: 12px;
+}
+
+.subheader .subheader_btn .subheader_btn_content{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.topsection{
+    height: 50px;
+}
+
+.promo {
+    color:rgb(49, 0, 12);
+    height: 500px;
+    width: 100%;
+    font-weight: 600;
+    background: url(https://pm1.narvii.com/5953/c28e0b4adbf8366dd6994cb821d0544c1fe623fa_hq.jpg) center center/cover no-repeat;
+}
+
+.promo .container{
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.promo .title{
+    margin-top: 50px;
+    font-weight: 900;
+    color:rgb(230, 235, 240);
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 50px;
+    text-shadow: 5px 5px 0 rgba(0,0,0,1);
+}
+
+.promo .subtitle{
+    margin-top: 0;
+    color:rgb(238, 228, 238);
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    text-shadow: 3px 3px 0 rgba(0,0,0,1);
+}
+
+.promo .descr{
+    font-size: 17px;
+    color: aliceblue;
+    text-shadow: 2px 2px 0 rgba(0,0,0,1);
+}
+
+.promo .btn_content{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.21);
+}
+
+.bonus{
+    height: 800px;
+    text-align: center;
+    z-index: -2;
+}
+
+.bonus .bonus_title{
+    width: 140px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 14px;
+    color:blanchedalmond;
+    background-color:black;
+    text-transform: uppercase;
+}
+
+.bonus .bonus_subtitle{
+    text-transform: uppercase;
+}
+
+._title{
+    color:rgb(13, 105, 167);
+    text-align: left;
+}
+
+.bonus_img{
+    vertical-align:middle;   
+
+}
+
+.bonus_text{
+    font-size: 12px;
+    text-align: left;
+}
+
+.card{
+    z-index: -2;
+}

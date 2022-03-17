@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.sass"
+	],
+	"sourcesContent": [
+		"h1 {\n    color: red; }\n\n.block {\n    background-color: yellow;\n    height: 500px;\n    width: 100%;\n    margin-top: 55px;\n    text-align: center;\n    text-transform: uppercase;\n    h3 {\n        color: pink; } }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;CAAG;;;AAEjB,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,MAAM;EACxB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,SAAS;CAEL;;;AARxB,AAOI,MAPE,CAOF,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG"
+}
